@@ -1,0 +1,127 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ddd ddd, sdsf, LIC=76FPC-70677-NL1CG-VQ3LL-YXSRD-4LUKA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+E:\George\node\project\node.uvprojx
+Project File Date:  03/16/2017
+
+<h2>Output:</h2>
+Rebuild target 'sx_demo'
+assembling startup_stm32f10x_hd.s...
+compiling main.c...
+compiling common.c...
+compiling timer.c...
+compiling bsp.c...
+compiling i2c.c...
+compiling uart.c...
+compiling spi.c...
+compiling systick.c...
+compiling rf.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_spi.c...
+compiling misc.c...
+compiling stm32f10x_rcc.c...
+compiling sx1276.c...
+..\radio\sx1276\sx1276.c(17): error:  #5: cannot open source input file "board.h": No such file or directory
+  #include "board.h"
+..\radio\sx1276\sx1276.c: 0 warnings, 1 error
+compiling LoRaMac.c...
+..\mac\LoRaMacCrypto.h(50): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacComputeMic( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint32_t *mic );
+..\mac\LoRaMacCrypto.h(50): error:  #20: identifier "uint16_t" is undefined
+  void LoRaMacComputeMic( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint32_t *mic );
+..\mac\LoRaMacCrypto.h(50): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacComputeMic( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint32_t *mic );
+..\mac\LoRaMacCrypto.h(50): error:  #20: identifier "uint32_t" is undefined
+  void LoRaMacComputeMic( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint32_t *mic );
+..\mac\LoRaMacCrypto.h(50): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacComputeMic( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint32_t *mic );
+..\mac\LoRaMacCrypto.h(50): error:  #20: identifier "uint32_t" is undefined
+  void LoRaMacComputeMic( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint32_t *mic );
+..\mac\LoRaMacCrypto.h(50): error:  #20: identifier "uint32_t" is undefined
+  void LoRaMacComputeMic( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint32_t *mic );
+..\mac\LoRaMacCrypto.h(63): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacPayloadEncrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint8_t *encBuffer );
+..\mac\LoRaMacCrypto.h(63): error:  #20: identifier "uint16_t" is undefined
+  void LoRaMacPayloadEncrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint8_t *encBuffer );
+..\mac\LoRaMacCrypto.h(63): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacPayloadEncrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint8_t *encBuffer );
+..\mac\LoRaMacCrypto.h(63): error:  #20: identifier "uint32_t" is undefined
+  void LoRaMacPayloadEncrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint8_t *encBuffer );
+..\mac\LoRaMacCrypto.h(63): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacPayloadEncrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint8_t *encBuffer );
+..\mac\LoRaMacCrypto.h(63): error:  #20: identifier "uint32_t" is undefined
+  void LoRaMacPayloadEncrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint8_t *encBuffer );
+..\mac\LoRaMacCrypto.h(63): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacPayloadEncrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint8_t *encBuffer );
+..\mac\LoRaMacCrypto.h(76): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacPayloadDecrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint8_t *decBuffer );
+..\mac\LoRaMacCrypto.h(76): error:  #20: identifier "uint16_t" is undefined
+  void LoRaMacPayloadDecrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint8_t *decBuffer );
+..\mac\LoRaMacCrypto.h(76): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacPayloadDecrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint8_t *decBuffer );
+..\mac\LoRaMacCrypto.h(76): error:  #20: identifier "uint32_t" is undefined
+  void LoRaMacPayloadDecrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint8_t *decBuffer );
+..\mac\LoRaMacCrypto.h(76): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacPayloadDecrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint8_t *decBuffer );
+..\mac\LoRaMacCrypto.h(76): error:  #20: identifier "uint32_t" is undefined
+  void LoRaMacPayloadDecrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint8_t *decBuffer );
+..\mac\LoRaMacCrypto.h(76): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacPayloadDecrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t address, uint8_t dir, uint32_t sequenceCounter, uint8_t *decBuffer );
+..\mac\LoRaMacCrypto.h(86): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacJoinComputeMic( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t *mic );
+..\mac\LoRaMacCrypto.h(86): error:  #20: identifier "uint16_t" is undefined
+  void LoRaMacJoinComputeMic( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t *mic );
+..\mac\LoRaMacCrypto.h(86): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacJoinComputeMic( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t *mic );
+..\mac\LoRaMacCrypto.h(86): error:  #20: identifier "uint32_t" is undefined
+  void LoRaMacJoinComputeMic( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint32_t *mic );
+..\mac\LoRaMacCrypto.h(96): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacJoinDecrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint8_t *decBuffer );
+..\mac\LoRaMacCrypto.h(96): error:  #20: identifier "uint16_t" is undefined
+  void LoRaMacJoinDecrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint8_t *decBuffer );
+..\mac\LoRaMacCrypto.h(96): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacJoinDecrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint8_t *decBuffer );
+..\mac\LoRaMacCrypto.h(96): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacJoinDecrypt( const uint8_t *buffer, uint16_t size, const uint8_t *key, uint8_t *decBuffer );
+..\mac\LoRaMacCrypto.h(107): error:  #20: identifier "uint8_t" is undefined
+  void LoRaMacJoinComputeSKeys( const uint8_t *key, const uint8_t *appNonce, uint16_t devNonce, uint8_t *nwkSKey, uint8_t *appSKey );
+..\mac\LoRaMac.c: 0 warnings, 30 errors
+compiling LoRaMacCrypto.c...
+compiling aes.c...
+compiling cmac.c...
+".\Obj\sx_demo.axf" - 31 Error(s), 0 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\George\node\project\RTE
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>

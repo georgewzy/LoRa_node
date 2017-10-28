@@ -1,0 +1,15 @@
+.\obj\sx1276-fskmisc.o: ..\radio\sx1276-FskMisc.c
+.\obj\sx1276-fskmisc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\obj\sx1276-fskmisc.o: ..\radio\sx1276.h
+.\obj\sx1276-fskmisc.o: ..\MCU\CM3\stm32f10x.h
+.\obj\sx1276-fskmisc.o: ..\MCU\CM3\core_cm3.h
+.\obj\sx1276-fskmisc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\sx1276-fskmisc.o: ..\MCU\CM3\system_stm32f10x.h
+.\obj\sx1276-fskmisc.o: ..\MCU\FWlib\inc\stm32f10x_conf.h
+.\obj\sx1276-fskmisc.o: ..\MCU\FWlib\inc\stm32f10x_gpio.h
+.\obj\sx1276-fskmisc.o: ..\MCU\CM3\stm32f10x.h
+.\obj\sx1276-fskmisc.o: ..\MCU\FWlib\inc\stm32f10x_rcc.h
+.\obj\sx1276-fskmisc.o: ..\radio\sx1276-Fsk.h
+.\obj\sx1276-fskmisc.o: ..\radio\sx1276-FskMisc.h
+.\obj\sx1276-fskmisc.o: ..\driver\spi.h
+.\obj\sx1276-fskmisc.o: ..\app\timer.h

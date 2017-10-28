@@ -1,0 +1,12 @@
+.\obj\utilities.o: ..\MCU\utilities.c
+.\obj\utilities.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\utilities.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\utilities.o: ..\MCU\utilities.h
+.\obj\utilities.o: ..\MCU\CM3\stm32f10x.h
+.\obj\utilities.o: ..\MCU\CM3\core_cm3.h
+.\obj\utilities.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\utilities.o: ..\MCU\CM3\system_stm32f10x.h
+.\obj\utilities.o: ..\MCU\FWlib\inc\stm32f10x_conf.h
+.\obj\utilities.o: ..\MCU\FWlib\inc\stm32f10x_gpio.h
+.\obj\utilities.o: ..\MCU\CM3\stm32f10x.h
+.\obj\utilities.o: ..\MCU\FWlib\inc\stm32f10x_rcc.h

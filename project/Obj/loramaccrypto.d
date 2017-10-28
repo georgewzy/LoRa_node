@@ -1,0 +1,13 @@
+.\obj\loramaccrypto.o: ..\mac\LoRaMacCrypto.c
+.\obj\loramaccrypto.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\loramaccrypto.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\loramaccrypto.o: ..\system\crypto\aes.h
+.\obj\loramaccrypto.o: ..\system\crypto\cmac.h
+.\obj\loramaccrypto.o: ..\mac\LoRaMacCrypto.h
+.\obj\loramaccrypto.o: ..\MCU\CM3\stm32f10x.h
+.\obj\loramaccrypto.o: ..\MCU\CM3\core_cm3.h
+.\obj\loramaccrypto.o: ..\MCU\CM3\system_stm32f10x.h
+.\obj\loramaccrypto.o: ..\MCU\FWlib\inc\stm32f10x_conf.h
+.\obj\loramaccrypto.o: ..\MCU\FWlib\inc\stm32f10x_gpio.h
+.\obj\loramaccrypto.o: ..\MCU\CM3\stm32f10x.h
+.\obj\loramaccrypto.o: ..\MCU\FWlib\inc\stm32f10x_rcc.h
